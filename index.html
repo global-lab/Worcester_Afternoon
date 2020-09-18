@@ -7,6 +7,7 @@
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css">
+        <link href='https://fonts.googleapis.com/css?family=Padauk' rel='stylesheet'>
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
             #map {
@@ -19,7 +20,7 @@
                 background: rgba(255,255,255,1);
                 padding: 10px;
                 right: 0;
-                margin-top: 250px;
+                margin-top: 325px;
                 margin-right: 10px;
                 border-radius: 10px;
                 box-shadow: 1px 1px 1px grey;
@@ -55,6 +56,7 @@
             }
             body{
                 overflow: hidden;
+                font-family: 'B612', sans-serif;
             }
         </style>
         <title></title>
@@ -66,12 +68,13 @@
     <div id="Heading1">
         <h1> Afternoon </h1>
         <div>
-            <p id="Minimum"> Minimum Temperature - 80.82 F</p>
+            <p id="Minimum"> Min: 80.82 F (27.12 &#8451;) </p>
         </div>
-        <p id="Maximum"> Maximum Temperature - 89.65 F </p>
+        <p id="Maximum"> Max: 89.65 F (32.03 &#8451;)  </p>
     </div>
-    <div>
-        <p id="Location"> Find your location then use the slider to show the heat.</p>
+    <div id="Location">
+        <p> Find your location then use </p>
+        <p> the slider to show the heat. </p>
     </div>
         <div id="map">
         </div>
